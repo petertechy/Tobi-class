@@ -1,0 +1,11 @@
+.container{
+    background-color: blue;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+.heading{
+    font-size: 4rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
