@@ -11,6 +11,7 @@ import Fish from './components/Fish'
 import Meat from './components/Meat'
 import EffectClass from './pages/EffectClass'
 import MakeRequest from './pages/MakeRequest'
+import Formikform from './pages/Formikform'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
             <Route path='/register' element={<RegisterUser/>}/>
             <Route path='/effect' element={<EffectClass/>}/>
             <Route path='/make-request' element={<MakeRequest/>}/>
+            <Route path='/formik' element={<Formikform/>}/>
 
             <Route path='/food' element={<Food/>}>
               <Route path='fish' element={<Fish/>}/>
