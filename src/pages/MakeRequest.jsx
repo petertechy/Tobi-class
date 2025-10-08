@@ -6,6 +6,7 @@ const MakeRequest = () => {
   const [loading, setloading] = useState(true)
   const makeRequest = () => {
     let url = "https://fakestoreapi.com/products";
+    let userObject = {firstname, lastname, email, password}
     axios
       .get(url)
       .then((response) => {
