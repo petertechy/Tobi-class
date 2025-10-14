@@ -6,12 +6,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import { BrowserRouter } from 'react-router-dom'
 import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from 'react-redux'
-import counterSlice  from './redux/counterSlice.js'
-
-
-export const store = configureStore({
-  reducer: {counterSlice}
-})
+import store from './store.js'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
