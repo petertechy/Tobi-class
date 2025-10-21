@@ -14,6 +14,7 @@ import MakeRequest from './pages/MakeRequest'
 import Formikform from './pages/Formikform'
 import CountPage from './pages/CountPage'
 import ClassReact from './pages/ClassReact'
+import Ref from './pages/Ref'
 
 const App = () => {
   return (
@@ -30,7 +31,9 @@ const App = () => {
             <Route path='/make-request' element={<MakeRequest/>}/>
             <Route path='/formik' element={<Formikform/>}/>
             <Route path='count' element={<CountPage/>}/>
+            <Route path='ref' element={<Ref/>}/>
             <Route path="class" element={<ClassReact title="Good Morning"/>}/>
+
 
             <Route path='/food' element={<Food/>}>
               <Route path='fish' element={<Fish/>}/>
